@@ -1,0 +1,164 @@
+.image_bike {
+    max-width: 45%;
+    position: absolute;
+    right: 0%;
+    top: -10%;
+    width: 35%;
+    z-index: 0;
+}
+
+.image_bike_text {
+    font-family: "PoppinsLight";
+    font-size: 2rem;
+    position: absolute;
+    right: 30%;
+    top: 40%;
+    writing-mode: vertical-lr;
+    z-index: 1;
+    transform: rotate(-180deg);
+}
+
+.chart1 {
+    display: inline-block;
+    padding: 0 0 0 2rem;
+    transform: translate(-5px, 0px) rotate(-25deg);
+}
+
+.chart2 {
+    display: inline-block;
+    padding: 0 0 0 2rem;
+    transform: translate(0px, 0px) rotate(-20deg);
+}
+
+.chart3 {
+    display: inline-block;
+    font-family: "PoppinsBold";
+    font-weight: bold;
+    padding: 0 2rem 0 0;
+    transform: translate(5px, 0px) rotate(-10deg);
+}
+
+.chart4 {
+    display: inline-block;
+    font-family: "PoppinsBold";
+    font-weight: bold;
+    padding: 0 2rem 0 0;
+    transform: translate(5px, 0px) rotate(0deg);
+}
+
+.chart5 {
+    display: inline-block;
+    font-family: "PoppinsBold";
+    font-weight: bold;
+    padding: 0 2rem 0 0;
+    transform: translate(3px, 0px) rotate(10deg);
+}
+
+.chart6 {
+    display: inline-block;
+    font-family: "PoppinsBold";
+    font-weight: bold;
+    padding: 0 2rem 0 0;
+    transform: translate(0px, 0px) rotate(20deg);
+}
+
+.chart7 {
+    display: inline-block;
+    font-family: "PoppinsBold";
+    font-weight: bold;
+    padding: 0 2rem 0 0;
+    transform: translate(-5px, 0px) rotate(30deg);
+}
+
+.circle_line_decoration {
+    left: 0%;
+    max-width: 10%;
+    position: absolute;
+    top: 45%;
+    width: 5%;
+    z-index: 0;
+}
+
+.donut_decoration {
+    bottom: 0%;
+    max-width: 30%;
+    opacity: 80%;
+    position: absolute;
+    right: 8%;
+    width: 20%;
+    z-index: 0;
+} 
+
+.circle_line_decoration_top {
+    max-width: 15%;
+    position: absolute;
+    right: 27%;
+    top: 10%;
+    width: 10%;
+    z-index: 2;
+}
+
+.half_donut {
+    max-width: 8%;
+    opacity: 80%;
+    position: absolute;
+    right: 40%;
+    top: 35%;
+    width: 4%;
+    z-index: 2;
+}
+
+.circle_line_decoration_down {
+    bottom: 7%;
+    max-width: 10%;
+    position: absolute;
+    right: 27%;
+    width: 7%;
+    z-index: 2;
+}
+
+@media only screen and (max-width: 45rem) {
+    .image_bike {
+        display: none;
+    }
+
+    .image_bike_text {
+        display: none;
+    }
+
+    .circle_line_decoration {
+        display: none;
+    }
+
+    .circle_line_decoration_down {
+        display: none;
+    }
+
+    .circle_line_decoration_top {
+        display: none;
+    }
+
+    .half_donut {
+        display: none;
+    }
+
+    .donut_decoration {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 75rem) {
+    .image_bike {
+        height: 100%;
+        top: 0%;
+        z-index: -2;
+    }
+
+    .image_bike_text {
+        right: 25%;
+    }
+
+    .circle_line_decoration {
+        display: none;
+    }
+  }

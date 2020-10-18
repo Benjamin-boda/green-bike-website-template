@@ -1,0 +1,74 @@
+.body_text {
+    align-items: flex-end;
+    display: flex;
+    justify-content: flex-start;
+    margin: 6rem auto 0 auto;
+    max-width: 100rem;
+}
+
+.button_div_body {
+    margin: 4rem auto 0 auto;
+    max-width: 100rem;
+}
+
+.button_body {
+    background: rgb(0, 174, 115);
+    border: none;
+    font-family: "PoppinsBold";
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    width: 10rem;
+}
+
+.body_title {
+    color: rgb(0, 0, 0);
+    font-family: "PoppinsBlack";
+    font-size: 6rem;
+    line-height: 0.891;
+    text-transform: uppercase;
+}
+
+.body_title_span {
+    color: rgb(0, 174, 115);
+}
+
+.body_subtitle {
+    color: rgb(22, 22, 22);
+    font-family: "PoppinsLight";
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+    line-height: 2.508;
+    text-transform: uppercase;
+}
+
+.body_para {
+    color: rgb(0, 0, 0);
+    font-family: "PoppinsLight";
+    font-size: 1.3rem;
+    line-height: 1.2;
+    margin: 0 0 1rem 3rem;
+}
+
+@media only screen and (max-width: 45rem) {
+    .body_text {
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5rem auto 0 auto;
+    }
+
+    .body_title {
+        margin: 3rem 0;
+    }
+
+    .body_para {
+        font-size: 1rem;
+        margin: 4rem auto;
+    }
+
+    .button_div_body {
+        margin: 2rem auto;
+        text-align: center;
+    }
+}
